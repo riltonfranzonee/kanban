@@ -31,7 +31,7 @@ const TicketsStack: React.FC<TicketsStackProps> = ({
   return (
     <ol
       className={classNames(
-        "shadow-md bg-zinc-50 py-8 px-4 mt-4 rounded-lg flex flex-col"
+        "shadow-md bg-zinc-50 py-8 px-4 mt-4 rounded-lg flex flex-col max-h-[95%] overflow-y-auto"
       )}
       ref={provided.innerRef}
     >
